@@ -1,0 +1,4 @@
+tensorflow==2.21.0
+tensorflow-datasets==4.9.10
+Pillow>=10
+importlib-resources>=6

@@ -1,0 +1,4 @@
+.venv/
+.pdf-tools/
+__pycache__/
+data/
