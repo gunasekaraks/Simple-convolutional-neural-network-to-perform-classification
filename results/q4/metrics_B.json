@@ -1,0 +1,85 @@
+{
+  "model": "B",
+  "test_accuracy": 0.7563636363636363,
+  "per_class": {
+    "dandelion": {
+      "precision": 0.824,
+      "recall": 0.7686567164179104,
+      "f1": 0.7953667953667953,
+      "support": 134
+    },
+    "daisy": {
+      "precision": 0.6293103448275862,
+      "recall": 0.7684210526315789,
+      "f1": 0.6919431279620853,
+      "support": 95
+    },
+    "tulips": {
+      "precision": 0.7870370370370371,
+      "recall": 0.7083333333333334,
+      "f1": 0.7456140350877194,
+      "support": 120
+    },
+    "sunflowers": {
+      "precision": 0.8125,
+      "recall": 0.8666666666666667,
+      "f1": 0.8387096774193549,
+      "support": 105
+    },
+    "roses": {
+      "precision": 0.7191011235955056,
+      "recall": 0.6666666666666666,
+      "f1": 0.6918918918918919,
+      "support": 96
+    }
+  },
+  "macro_precision": 0.7543897010920257,
+  "macro_recall": 0.7557488871432312,
+  "macro_f1": 0.7527051055455694,
+  "confusion_matrix": [
+    [
+      103,
+      14,
+      2,
+      10,
+      5
+    ],
+    [
+      8,
+      73,
+      5,
+      3,
+      6
+    ],
+    [
+      7,
+      7,
+      85,
+      7,
+      14
+    ],
+    [
+      2,
+      8,
+      4,
+      91,
+      0
+    ],
+    [
+      5,
+      14,
+      12,
+      1,
+      64
+    ]
+  ],
+  "trainable_params": 80102,
+  "non_trainable_params": 1414,
+  "macs": 7344768,
+  "size_on_disk_kb": 433.404296875,
+  "float32_weights_kb": 318.421875,
+  "median_s_per_epoch": 4.527209599968046,
+  "epochs_trained": 30,
+  "best_val_epoch": 27,
+  "best_val_accuracy": 0.7295825481414795
+}
