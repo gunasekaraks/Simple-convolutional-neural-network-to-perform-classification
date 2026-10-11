@@ -1,0 +1,9 @@
+| Metric | Model B (custom) | MobileNetV2 | EfficientNet-B0 |
+|---|---|---|---|
+| Test accuracy | 0.7618 | 0.8509 | 0.8382 |
+| Total parameters | 81,516 | 2,264,389 | 4,055,976 |
+| Parameters vs Model B | 1.0x | 27.8x | 49.8x |
+| Size on disk (MB) | 0.42 | 9.20 | 16.28 |
+| Size vs Model B | 1.0x | 21.7x | 38.5x |
+| MACs per image | 7.3 M | 97.8 M | 126.0 M |
+| MACs vs Model B | 1.0x | 13.3x | 17.2x |

@@ -1,0 +1,13 @@
+Metric,MobileNetV2,EfficientNet-B0
+Total parameters,2264389,4055976
+Model size on disk (MB),9.20,16.28
+float32 weights (MB),8.64,15.47
+MACs per image,97.8 M,126.0 M
+Upsampled input,128x128,128x128
+Time / epoch head only (s),18.7,34.3
+Time / epoch fine-tuning (s),22.0,36.6
+Best val acc head only,0.8385,0.8312
+Best val acc overall (epoch),0.8603 (16),0.8457 (20)
+Test accuracy,0.8509,0.8382
+Macro precision,0.8572,0.8407
+Macro recall,0.8512,0.8344

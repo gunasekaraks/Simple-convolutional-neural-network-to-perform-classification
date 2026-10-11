@@ -1,0 +1,80 @@
+{
+  "model": "MobileNetV2",
+  "test_accuracy": 0.850909090909091,
+  "per_class": {
+    "dandelion": {
+      "precision": 0.9572649572649573,
+      "recall": 0.835820895522388,
+      "support": 134
+    },
+    "daisy": {
+      "precision": 0.8977272727272727,
+      "recall": 0.8315789473684211,
+      "support": 95
+    },
+    "tulips": {
+      "precision": 0.7266187050359713,
+      "recall": 0.8416666666666667,
+      "support": 120
+    },
+    "sunflowers": {
+      "precision": 0.8981481481481481,
+      "recall": 0.9238095238095239,
+      "support": 105
+    },
+    "roses": {
+      "precision": 0.8061224489795918,
+      "recall": 0.8229166666666666,
+      "support": 96
+    }
+  },
+  "macro_precision": 0.8571763064311881,
+  "macro_recall": 0.8511585400067334,
+  "confusion_matrix": [
+    [
+      112,
+      3,
+      10,
+      6,
+      3
+    ],
+    [
+      3,
+      79,
+      9,
+      0,
+      4
+    ],
+    [
+      0,
+      4,
+      101,
+      4,
+      11
+    ],
+    [
+      1,
+      0,
+      6,
+      97,
+      1
+    ],
+    [
+      1,
+      2,
+      13,
+      1,
+      79
+    ]
+  ],
+  "total_params": 2264389,
+  "macs": 97800448,
+  "size_on_disk_mb": 9.204852104187012,
+  "float32_weights_mb": 8.637958526611328,
+  "upsample_size": 128,
+  "median_s_per_epoch_stage1": 18.697318375000123,
+  "median_s_per_epoch_stage2": 21.955833055999847,
+  "best_val_epoch": 16,
+  "best_val_accuracy": 0.8602541089057922,
+  "best_val_accuracy_stage1": 0.8384755253791809
+}

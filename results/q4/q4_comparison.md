@@ -2,10 +2,10 @@
 |---|---|---|
 | Trainable parameters | 422,437 | 80,102 |
 | MACs per image | 60.20 M | 7.34 M |
-| Size on disk (.keras, KB) | 1726.8 | 433.4 |
+| Size on disk (.keras, KB) | 1726.8 | 433.5 |
 | float32 weights (KB) | 1653.9 | 318.4 |
-| Median time / epoch (s) | 5.0 | 4.5 |
-| Best val accuracy (epoch) | 0.7877 (30) | 0.7296 (27) |
-| Test accuracy | 0.7982 | 0.7564 |
-| Macro precision | 0.7976 | 0.7544 |
-| Macro recall | 0.8009 | 0.7557 |
+| Median time / epoch (s) | 10.2 | 9.3 |
+| Best val accuracy (epoch) | 0.7985 (21) | 0.7459 (25) |
+| Test accuracy | 0.7982 | 0.7618 |
+| Macro precision | 0.8105 | 0.7599 |
+| Macro recall | 0.7897 | 0.7573 |

@@ -67,3 +67,28 @@ Use the same saved splits for all four assignment models. For pretrained models,
 call `load_datasets(normalize=False)` and apply the chosen architecture's own
 preprocessing to the resulting float32 [0,255] images. Do not normalize twice.
 Keep the test split reserved for final evaluation.
+
+## Run all scripts (Linux / macOS)
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python prepare_data.py
+python models.py
+python train_optimizers.py
+python train_eval.py
+python train_sota.py
+```
+
+Select `.venv/bin/python` as the Python interpreter in your editor.
+Run the scripts in the order above: training requires the prepared data,
+and the SOTA comparison uses the custom model evaluation results.
+The default runs train the optimizer comparison for 20 epochs per optimizer,
+the custom models for 30 epochs each, and each pretrained model for two
+10-epoch stages. CPU training can take a long time. The first SOTA run also
+downloads ImageNet weights. Results, plots, and saved models go into
+`results/q3`, `results/q4`, and `results/q5`.
+
+If your shell has ROS or other packages in `PYTHONPATH`, use `python -E`
+in place of `python` in the commands above to ignore inherited Python paths.

@@ -1,0 +1,80 @@
+{
+  "model": "EfficientNet-B0",
+  "test_accuracy": 0.8381818181818181,
+  "per_class": {
+    "dandelion": {
+      "precision": 0.8740740740740741,
+      "recall": 0.8805970149253731,
+      "support": 134
+    },
+    "daisy": {
+      "precision": 0.8974358974358975,
+      "recall": 0.7368421052631579,
+      "support": 95
+    },
+    "tulips": {
+      "precision": 0.792,
+      "recall": 0.825,
+      "support": 120
+    },
+    "sunflowers": {
+      "precision": 0.8378378378378378,
+      "recall": 0.8857142857142857,
+      "support": 105
+    },
+    "roses": {
+      "precision": 0.801980198019802,
+      "recall": 0.84375,
+      "support": 96
+    }
+  },
+  "macro_precision": 0.8406656014735223,
+  "macro_recall": 0.8343806811805633,
+  "confusion_matrix": [
+    [
+      118,
+      2,
+      2,
+      8,
+      4
+    ],
+    [
+      10,
+      70,
+      11,
+      3,
+      1
+    ],
+    [
+      2,
+      4,
+      99,
+      5,
+      10
+    ],
+    [
+      3,
+      2,
+      2,
+      93,
+      5
+    ],
+    [
+      2,
+      0,
+      11,
+      2,
+      81
+    ]
+  ],
+  "total_params": 4055976,
+  "macs": 125991168,
+  "size_on_disk_mb": 16.280949592590332,
+  "float32_weights_mb": 15.472320556640625,
+  "upsample_size": 128,
+  "median_s_per_epoch_stage1": 34.34751700800052,
+  "median_s_per_epoch_stage2": 36.58324757799983,
+  "best_val_epoch": 20,
+  "best_val_accuracy": 0.8457350134849548,
+  "best_val_accuracy_stage1": 0.8312159776687622
+}
